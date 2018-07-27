@@ -1,4 +1,12 @@
 .DS_Store
 *.swp
+.vscode/
+.ensime_cache/
+.ensime
 .vim/bundle/*
-.netrwhist
+.idea/
+npm-debug.log
+.tmp
+.#*
+dump.rdb
+
