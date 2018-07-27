@@ -1,0 +1,36 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreview": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.parameterHints": false,
+  "window.zoomLevel": 1,
+  "editor.tabSize": 2,
+  "editor.fontSize": 11,
+  "editor.renderWhitespace": "all",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "search.useIgnoreFiles": true,
+  "eslint.options": {
+      "configFile": "/Users/bear/.eslintrc"
+  },
+  "ActiveFileInStatusBar.fullpath": false,
+  "gitlens.advanced.messages": {
+      "suppressShowKeyBindingsNotice": true,
+      "suppressWelcomeNotice": true
+  },
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.keymap": "none",
+  "gitlens.historyExplorer.enabled": true,
+  "flow.useNPMPackagedFlow": true,
+  "workbench.colorCustomizations": {
+      "editorCursor.foreground": "#00FF00"
+  },
+  "emmet.showExpandedAbbreviation": "never",
+  "solidity.soliumRules": {
+      "indentation": [
+          "error",
+          2
+      ]
+  },
+  "typescript.tsserver.log": "verbose"
+}
