@@ -1,7 +1,6 @@
 code --install-extension PeterJausovec.vscode-docker
 code --install-extension RoscoP.ActiveFileInStatusBar
 code --install-extension Tyriar.lorem-ipsum
-code --install-extension auiworks.amvim
 code --install-extension daltonjorge.scala
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dragos.scala-lsp
