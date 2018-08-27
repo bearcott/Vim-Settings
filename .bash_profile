@@ -1,3 +1,5 @@
+export GPG_TTY=$(tty)
+
 KILLPORT() {
   kill -9 $(lsof -i tcp:$1 | grep -Eo "[0-9]{3,5}")
 }
@@ -34,14 +36,10 @@ alias killp=KILLPORT
 alias mysqlstart="/usr/local/bin/mysql.server start"
 alias venvon=". venv/bin/activate"
 
-#git auto complete
-source ~/git-completion.bash
-
 #Style
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-source "/usr/local/etc/grc.bashrc"
 
 #motivate
 LETSFUCKINGO() {
