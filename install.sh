@@ -1,7 +1,7 @@
 cp .* ../;
 cp -R .vim ../;
-source .bash_profile;
-source <(curl -s https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash);
-source <(curl -s https://raw.githubusercontent.com/garabik/grc/master/grc.bashrc);
+curl -s https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > git-completion.sh;
+curl -s https://raw.githubusercontent.com/garabik/grc/master/grc.bashrc > grc.bashrc;
+source ../.bash_profile;
 source install_vscode_extensions.sh
 
