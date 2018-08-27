@@ -1,4 +1,5 @@
 {
+  "window.titleBarStyle": "custom",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.enablePreview": true,
   "workbench.colorTheme": "One Dark Pro",
