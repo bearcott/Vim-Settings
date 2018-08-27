@@ -26,22 +26,22 @@ vnoremap // y/<C-R>"<CR>
 map <C-\> :NERDTreeToggle<CR> "open nerdtree
 
 "Pathogen
-execute pathogen#infect()
+"execute pathogen#infect()
 
 "Vundle
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
+"Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'othree/html5.vim'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
+"Plugin 'othree/html5.vim'
+"Plugin 'terryma/vim-multiple-cursors'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'godlygeek/tabular'
+"Plugin 'plasticboy/vim-markdown'
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
+"call vundle#end()            " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
