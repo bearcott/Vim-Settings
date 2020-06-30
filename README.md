@@ -7,5 +7,8 @@
 am using zshrc for bash
 
 **vscode**
-
 using settings sync plugin from vscode to update settings 
+
+**additiional things**
+copy gitconfig and set up gpg signing
+
