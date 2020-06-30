@@ -1,6 +1,11 @@
-to install:
+**installation**
 
 1. clone this repo into root user directory `cd ~ && git clone ...`;
 2. run install.sh `. install.sh`
-3. copy `vscode_settings.json` into the vscode user settings page
-4. will have to move `.hyper.js` to actual windows root dir
+
+**zshrc**
+am using zshrc for bash
+
+**vscode**
+
+using settings sync plugin from vscode to update settings 
